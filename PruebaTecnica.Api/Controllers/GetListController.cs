@@ -4,7 +4,7 @@ using PruebaTecnica.Aplication.Services.Interface.Services;
 namespace PruebaTecnica.Api.Controllers
 {
     [ApiController]
-    [Route("api/products(listar todos con paginación).")]
+    [Route("api/products(listar todos con paginación)")]
     public class GetListController : Controller
     {
 
