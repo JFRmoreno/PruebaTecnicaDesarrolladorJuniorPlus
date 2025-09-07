@@ -5,7 +5,7 @@ using PruebaTecnica.Aplication.Services.Interface.Services;
 namespace PruebaTecnica.Api.Controllers
 {
     [ApiController]
-    [Route("api/products/{id}(eliminar)")]
+    [Route("api/products/delete")]
     public class DeleteController : Controller
     {
 

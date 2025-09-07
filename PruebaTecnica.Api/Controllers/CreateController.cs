@@ -5,7 +5,7 @@ using PruebaTecnica.Aplication.Services.Interface.Services;
 namespace PruebaTecnica.Api.Controllers
 {
     [ApiController]
-    [Route("api/products(crear)")]
+    [Route("api/products/create")]
     public class CreateController : Controller
     {
 
