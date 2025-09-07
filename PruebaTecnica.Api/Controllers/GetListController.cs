@@ -4,7 +4,7 @@ using PruebaTecnica.Aplication.Services.Interface.Services;
 namespace PruebaTecnica.Api.Controllers
 {
     [ApiController]
-    [Route("api/products(ListarConPaginación)")]
+    [Route("api/products")]
     public class GetListController : Controller
     {
 
@@ -14,7 +14,7 @@ namespace PruebaTecnica.Api.Controllers
         {
             _services = services;
         }
-        [HttpGet]
+        [HttpGet("list")]
         public async Task<IActionResult> Gelist([FromQuery] int pageZise, int row)
         {
             var result = await _services.GetAllProducts(pageZise, row);

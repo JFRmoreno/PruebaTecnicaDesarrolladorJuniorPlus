@@ -5,7 +5,7 @@ using PruebaTecnica.Aplication.Services.Interface.Services;
 namespace PruebaTecnica.Api.Controllers
 {
     [ApiController]
-    [Route("api/products/{id}(actualizar)")]
+    [Route("api/products/update")]
     public class UpdateController : Controller
     {
 

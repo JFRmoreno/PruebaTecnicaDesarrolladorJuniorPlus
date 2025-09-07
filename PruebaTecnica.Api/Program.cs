@@ -14,6 +14,18 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddAplication(builder.Configuration);
 builder.Services.AddInfrastructure(builder.Configuration);
 
+//CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll",
+        builder =>
+        {
+            builder.AllowAnyOrigin()
+                   .AllowAnyMethod()
+                   .AllowAnyHeader();
+        });
+});
+
 var app = builder.Build();
 
 // Configurar el pipeline de la aplicación.
@@ -22,6 +34,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors("AllowAll");
+
+app.UseAuthorization();
+
+app.MapControllers();
 
 app.UseHttpsRedirection();
 
