@@ -14,6 +14,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\PruebaTecnica.Api\PruebaTecnica.Api.csproj" />
+    <ProjectReference Include="..\PruebaTecnica.Aplication\PruebaTecnica.Aplication.csproj" />
+    <ProjectReference Include="..\PruebaTecnica.Domain\PruebaTecnica.Domain.csproj" />
+    <ProjectReference Include="..\PruebaTecnica.Infrastructure\PruebaTecnica.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
   </ItemGroup>
 
