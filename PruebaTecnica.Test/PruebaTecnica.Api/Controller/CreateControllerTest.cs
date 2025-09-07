@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PruebaTecnica.Test.PruebaTecnica.Api.Controller
 {
-    internal class CreateControllerTest
+    public class CreateControllerTest
     {
     }
 }
