@@ -27,7 +27,7 @@ Este proyecto es una solución en .NET 8 para una prueba técnica, estructurada 
 ## Pasos para ejecutar el proyecto
 
 1. **Clona el repositorio** https://github.com/JFRmoreno/PruebaTecnicaDesarrolladorJuniorPlus
-2. **ejecuta los script en la base de datos ** https://github.com/JFRmoreno/Script-SQL-Server-
+2. **ejecuta los script en la base de datos** https://github.com/JFRmoreno/Script-SQL-Server-
 3. **Abre la solución en Visual Studio 2022**
 
 4. **Restaura los paquetes NuGet**
