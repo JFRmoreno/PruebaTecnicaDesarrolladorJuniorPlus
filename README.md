@@ -51,24 +51,25 @@ Este proyecto es una solución en .NET 8 para una prueba técnica, estructurada 
 
 2. **Ejecuta los scripts en la base de datos**  
    [https://github.com/JFRmoreno/Script-SQL-Server-](https://github.com/JFRmoreno/Script-SQL-Server-)
+3. **Dirigete al siguiente repositorio**
+https://github.com/JFRmoreno/PruebaTecnicaDesarrolladorJuniorPlusAngular   
+4. **Abre la solución en Visual Studio 2022**
 
-3. **Abre la solución en Visual Studio 2022**
-
-4. **Restaura los paquetes NuGet**
+5. **Restaura los paquetes NuGet**
    - Visual Studio restaurará los paquetes automáticamente al compilar.
    - También puedes usar __Herramientas > Administrador de paquetes NuGet > Restaurar paquetes NuGet__.
 
-5. **Configura la cadena de conexión a la base de datos**
+6. **Configura la cadena de conexión a la base de datos**
    - Modifica el archivo `appsettings.Development` en el proyecto `PruebaTecnica.Api` para apuntar a tu instancia de SQL Server.
 
-6. **Compila la solución**
+7. **Compila la solución**
    - Usa __Compilar > Compilar solución__.
 
-7. **Ejecuta el proyecto API**
+8. **Ejecuta el proyecto API**
    - Establece `PruebaTecnica.Api` como proyecto de inicio.
    - Presiona `F5` o usa __Depurar > Iniciar depuración__.
 
-8. **Accede a Swagger UI**
+9. **Accede a Swagger UI**
    - Una vez ejecutando, navega a `https://localhost:{puerto}/swagger` en tu navegador para explorar la API.
 
 ## Buenas Prácticas Implementadas
